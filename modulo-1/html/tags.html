@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tags</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <h1>H1</h1>
+      <h2>H2</h2>
+      <h3>H3</h3>
+      <h4>Ta se passando</h4>
+      <h5>Pq tu ta usando um h5?????</h5>
+      <h6>Por favor não</h6>
+
+      <p>
+        Paragrafo podem ter algumas tags como <strong>'strong'</strong> ou <em>'em'</em> ou pode ser
+        um
+        <a
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUYbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXAg"
+          target="_blank"
+          >link</a
+        >
+      </p>
+    </main>
+
+    <section>
+      <blockquote>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis in, voluptate repudiandae
+        aliquam quas consequatur corrupti eum possimus aliquid placeat iusto neque consequuntur
+        officia sequi accusantium provident fugiat dolorem. Placeat!
+      </blockquote>
+
+      <pre>
+        <code>
+          const a = 1;
+          const b = 2;
+          const c = a + b;
+          console.log(c);
+        </code>
+      </pre>
+
+      <p>HTML is the <abbr title="greatest of all time">GOAT</abbr></p>
+    </section>
+
+    <section id="demo">
+      <ul>
+        <li>listas</li>
+        <li>não ordenadas</li>
+        <li>existem</li>
+      </ul>
+      <ol>
+        <li>listas</li>
+        <li>ordenadas</li>
+        <li>também</li>
+      </ol>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>João</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Maria</td>
+            <td>19</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <form action="">
+        <label>Nome</label>
+        <input
+          type="text"
+          name="nome"
+        />
+
+        <label>Idade</label>
+        <input
+          type="number"
+          name="idade"
+        />
+
+        <label>Senha</label>
+        <input
+          type="password"
+          name="senha"
+        />
+
+        <label>Arquivo</label>
+        <input
+          type="file"
+          name="arquivo"
+        />
+
+        <label>aniversario</label>
+        <input
+          type="date"
+          name="aniversario"
+        />
+        <div>
+          <label>Sexo</label>
+          <input
+            type="radio"
+            name="sexo"
+            value="masculino"
+          />
+
+          <label>Masculino</label>
+          <input
+            type="radio"
+            name="sexo"
+            value="feminino"
+          />
+          <label>Feminino</label>
+          <input
+            type="radio"
+            name="sexo"
+            value="outro"
+          />
+          <label>Outro</label>
+        </div>
+
+        <div>
+          <label>Interesses</label>
+          <input
+            type="checkbox"
+            name="interesses"
+            value="programação"
+          />
+          <label>programação</label>
+          <input
+            type="checkbox"
+            name="interesses"
+            value="dormir"
+          />
+          <label>dormir</label>
+          <input
+            type="checkbox"
+            name="interesses"
+            value="animes"
+          />
+          <label>animes</label>
+        </div>
+
+        <div>
+          <label>Linguagens</label>
+
+          <select name="linguagens">
+            <option value="rust">rust</option>
+            <option value="typescript">typescript</option>
+            <option value="go">go</option>
+          </select>
+        </div>
+        <label>Comentários</label>
+        <textarea name="comentarios"></textarea>
+        <label>Enviar</label>
+        <input
+          type="submit"
+          value="Enviar"
+        />
+      </form>
+      <img
+        src="https://pbs.twimg.com/profile_images/1675271880150855680/50dO0FhO_400x400.jpg"
+        alt="mini garfield"
+      />
+    </section>
+
+    <dialog id="dialog">
+      <p>um modal nativo sem javascript! (ou quase)</p>
+      <button onclick="dialog.close()">x</button>
+    </dialog>
+    <button onclick="dialog.showModal()">modal</button>
+
+    <div>
+      <iframe
+        width="400"
+        height="215"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=buenos+aires&amp;sll=37.0625,-95.677068&amp;sspn=38.638819,80.859375&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Buenos+Aires,+Argentina&amp;z=11&amp;ll=-34.603723,-58.381593&amp;output=embed"
+      ></iframe>
+    </div>
+
+    <search>
+      <form action="">
+        <label for="movie">Pesquisar</label>
+        <input
+          type="search"
+          id="pesquisa"
+        />
+        <button type="submit">Pesquisar</button>
+      </form>
+    </search>
+
+    <hr />
+
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
